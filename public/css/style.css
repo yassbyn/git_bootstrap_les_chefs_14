@@ -1,0 +1,18 @@
+/* Error: Expected identifier.
+ *   ,
+ * 1 | $ fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
+ *   |  ^
+ *   '
+ *   src/sass/_icons.sass 1:2  @import
+ *   src/sass/style.sass 4:9   root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Expected identifier.\a   \2577 \a 1 \2502  $ fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"\a   \2502   ^\a   \2575 \a   src/sass/_icons.sass 1:2  @import\a   src/sass/style.sass 4:9   root stylesheet';
+}
