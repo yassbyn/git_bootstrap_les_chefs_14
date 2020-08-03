@@ -16026,4 +16026,29 @@ header .carousel button:hover {
   background-color: #ee0a0a;
 }
 
+section:nth-of-type(1) p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+section:nth-of-type(1) .row .col-2 {
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+section:nth-of-type(1) .row .col-2:hover {
+  border-right: 2px solid #ee0a0a;
+}
+section:nth-of-type(1) .row .col-2 div i {
+  font-size: 600%;
+}
+section:nth-of-type(1) .row .col-2 div i:hover {
+  color: #ee0a0a;
+}
+section:nth-of-type(1) .row .col-5 {
+  border-bottom: dotted 0.5px lightgrey;
+}
+section:nth-of-type(1) .row .col-5 span {
+  color: #ee0a0a;
+  background-color: lightgrey;
+}
+
 /*# sourceMappingURL=style.css.map */
