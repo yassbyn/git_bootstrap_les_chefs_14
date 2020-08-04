@@ -7,13 +7,17 @@
 
    
 body
+    background-image: url(../../public/images/main_bg.jpg)
     font-family: Ubuntu
+    h1, h2,h3,h4
+        font-family: Courgette
+    
+        
+
 .container-fluid
     width: 80%
     
 
-h1,h2,h3
-    font-family: Courgette   
 header
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../public/images/banner1.jpg")
     height: 900px
@@ -22,7 +26,7 @@ header
             li
                 margin: 0 20px
                 &:hover
-                    background-color: $red
+                    background-color: $yas
     .carousel
         padding:15%
         p
@@ -31,7 +35,7 @@ header
         button
             margin: 0 20px
             &:hover
-                background-color: $red
+                background-color: $yas
 
 section
     &:nth-of-type(1)
@@ -43,21 +47,67 @@ section
                 border-bottom: 1px solid lightgrey
                 border-right: 1px solid lightgrey
                 &:hover
-                    border-right: 2px solid $red
+                    border-right: 2px solid $yas
                 div
                     i
                         font-size: 600%
                         &:hover
-                            color: $red
+                            color: $yas
         
             .col-5
-                border-bottom: dotted 0.5px lightgrey
-                span
-                    color: $red
-                    background-color: lightgrey
-
+                    border-bottom: dotted 0.5px lightgrey
+                    
+                    span
+                        color: $yas
+                        background-color: lightgrey
+                    .container
+                        justify-content: center
             
     
-   
+section
+    &:nth-of-type(2)
+        background-image: url("../../public/images/team_background.jpg")
+        img
+            border-bottom: dotted 0,5px lightgrey
+
+
+
+section
+    &:nth-of-type(3)
+        margin: 30px 15%
+        background-color: white
+        border: 0,5px solid lightgrey
+        .formulaire
+            background-image: url("../../public/images/book_table_bg.jpg")
+            margin: 0 100px
+
+
+        .img
+            margin: 30px 15%
+            img
+                border-radius: 5%
+
+section
+    &:nth-of-type(4)
+        background-image: url("../../public/images/testimonials_background.jpg")
+
+
+footer
+    background-image: url("../../public/images/footer_background.jpg")
+              
+.denier
+    height: 30px
+    width: 100%
+    
+
+
+
+
+
+
+        
+            
+
+           
 
         
