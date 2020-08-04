@@ -16070,11 +16070,18 @@ section:nth-of-type(3) .formulaire {
   background-image: url("../../public/images/book_table_bg.jpg");
   margin: 0 100px;
 }
+section:nth-of-type(3) .btn {
+  bottom: 10;
+}
 section:nth-of-type(3) .img {
   margin: 30px 15%;
 }
 section:nth-of-type(3) .img img {
+  position: relative;
   border-radius: 5%;
+}
+section:nth-of-type(3) .img h4 {
+  position: relative;
 }
 
 section:nth-of-type(4) {
